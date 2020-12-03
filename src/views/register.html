@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/register.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Register</title>
+</head>
+<body class="container-body">
+    <header class="container-header">
+        
+        <div class="container-header-logo"> <img src="images/logo-mercado-liebre.svg" alt=""></div>
+        <div> <h4>Buscar productos, marcas y más</h4></div>
+        <h4>Comprá en cuotas y sin tarjeta de crédito</h4>
+
+        <div><p>BARRA DE NAVEGACIÓN</p></div>
+        <div>
+            <ul>
+                <li>Ofertas</li>
+                <li>Tiendas Oficiales</li>
+                <li>Vender</li>
+                <li>Ayuda</li>
+            </ul>
+        </div>
+
+        <div>
+            <button type="button" > <a href="http://localhost:3000/register">Crea tu cuenta</a> </button>
+            <button>Ingresá</button>
+            <button>Mis compras</button>
+        </div>
+        <div>
+            <img src="images/img-home-banner.jpg" alt="">
+        </div>
+    </header>
+
+    <main class="container-body">
+        <div>
+            <div>
+                <form action="register.html" method="POST">
+                    <label for="nombre" id="nombre" name="nombre"></label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre y apellido" class="container-body-form">
+
+                    <label for="usuario" id="usuario" name="usuario"></label>
+                    <input type="text" id="usuario" name="usuario" placeholder="Nombre de usuario" class="container-body-form">
+
+                    <label for="email" id="email" name="email"></label>
+                    <input type="email" id="email" name="email" placeholder="Email" class="container-body-form">
+                    
+                    <p class="container-body-text">Fecha de nacimiento</p>
+
+                    <label for="date" id="date" name="date"></label>
+                    <input type="date" id="date" name="date" class="container-body-form" >
+
+                    <label for="addres" id="addres" name="addres"></label>
+                    <input type="text" id="addres" name="addres" class="container-body-form" placeholder="Domicilio" >
+
+                </form>
+            </div>
+
+            <div>
+                <form action="register.html" method="POST">
+                    <p class="container-body-text">Perfil de usuario</p>
+                    <p><input type="radio" name="perfil" value="Comprador">Comprador</p>
+                    <p><input type="radio" name="perfil" value="Vendedor">Vendedor</p>
+            
+                </form>
+            </div>
+            <div>
+                <form action="register.html" method="POST">
+                    <p class="container-body-text">Intereses</p>
+                    <p><label for="intereses"></label></p>
+                    <p><input type="checkbox" name="intereses" value="cocinar">Cocinar</p>
+                    <p><input type="checkbox" name="intereses" value="Deportes">Deportes</p>
+                    <p><input type="checkbox" name="intereses" value="Musica">Musica</p>
+                    <p><input type="checkbox" name="intereses" value="Electronica">Electronica</p>
+                    <p><input type="checkbox" name="intereses" value="Ropa">Ropa</p>
+                </form>
+            </div>
+            <div>
+                <p class="container-body-text">Elegi tu foto de usuario</p>
+                <div>
+                    <button type="button" >Seleccionar archivo</button><p>No se selecciono archivo</p>
+                </div>
+                <form action="register.html" method="POST">
+                    <label for="password" name="password"></label>
+                    <input type="password" name="password" id="password" placeholder=" Contraseña" class="container-body-form">
+                    <input type="password" name="password" id="password" placeholder=" Confirma tu contraseña" class="container-body-form">
+                </form>
+            </div>
+            <div>
+                <p><input type="submit" value="Enviar"></p>
+                <p><input type="reset" value="Borrar"></p>
+
+            </div>
+            
+        </div>
+
+    </main>
+
+    <footer>
+        <div>
+            <i class="fas fa-credit-card"></i>
+            <p class="container-body-text">Paga con tarjeta</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam earum perspiciatis odio ut culpa voluptates numquam veritatis necessitatibus sapiente!</p>
+        </div>
+        <div>
+            <i class="fas fa-credit-card"></i>
+            <p class="container-body-text">Envio gratis desde ...</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam earum perspiciatis odio ut culpa voluptates numquam veritatis necessitatibus sapiente!</p>
+        </div>
+        <div>
+            <i class="fas fa-credit-card"></i>
+            <p class="container-body-text">Seguridad de principio a fin</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aperiam earum perspiciatis odio ut culpa voluptates numquam veritatis necessitatibus sapiente!</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

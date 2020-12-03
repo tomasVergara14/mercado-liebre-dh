@@ -1,0 +1,35 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    color: #1259c3;
+}
+
+.container-header{
+    background-color: #EAC926;
+    margin:0%;
+    width: 100%;
+}
+
+.container-header-logo{
+    width: 100%;
+    padding: 5%;
+}
+
+
+
+.container-body-form{
+    display: inline-block;
+    width: 70%;
+}
+
+.container-body-text{
+    font-size: 15px;
+}
