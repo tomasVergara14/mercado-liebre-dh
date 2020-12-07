@@ -148,6 +148,29 @@ a{
     border: 0px;
 }
 
+.container-usuario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+.container-form-text{
+    width: 100%;
+    font-size: 24px;
+    margin: 4% 2%;
+
+}
+
+.container-form-check1{
+    width: 50%;
+    margin: 5%;
+
+}
+
 .container-form-text{
     font-size: 24px;
     margin: 4% 2%;
@@ -156,7 +179,7 @@ a{
 }
 
 .container-form-check{
-    margin: 2% 5%;
+    margin: 5% 5%;
 }
 
 .container-form-check
