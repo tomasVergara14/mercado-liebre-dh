@@ -1,5 +1,4 @@
 *{
-    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,8 +10,6 @@
 a{
     color: #1259c3;
 }
-
-
 
 /*HEADDER
 
@@ -127,19 +124,24 @@ a{
     border-radius: 5px;
 }
 
-/*MAIN
+
+/* Main
 */
-.container-body-main{
+.container-main{
     background-color: rgb(225, 228, 231);
 }
 
-.container-form-register{
-
-    
+.container-form-login {
+    display: flex;
+    flex-direction: column;
     padding: 10px;
 }
 
-.container-form-forms{
+.container-main-forms{
+    width: 100%;
+}
+
+.input-ingreso {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -148,21 +150,7 @@ a{
     border: 0px;
 }
 
-.container-form-text{
-    font-size: 24px;
-    margin: 4% 2%;
-
-
-}
-
-.container-form-check{
-    margin: 2% 5%;
-}
-
-.container-form-check
-
-
-.boton-ingreso-register-submit{
+.boton-ingreso-login {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -173,38 +161,10 @@ a{
     background-color: #0044AA;
 }
 
-.boton-ingreso-register-reset {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 0px;
-    color: white;
-    background-color: #0044AA;
-}
-.boton-ingreso-register-reset2 {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 0px;
-    color: white;
-    background-color: #0044AA;
-}
-
-.boton-ingreso-register:hover {
+.boton-ingreso-login:hover {
     background-color:#0022AA
 }
-
-.boton-ingreso-register-reset2:hover{
-    background-color:#AA0044;
-}
-
-
-
-/* FOOTER
+/*Footer
 */
 
 .footer-box{
